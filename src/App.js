@@ -9,10 +9,10 @@ function App() {
     <Router>
       <Header />
       <Container>
-        <Home />
-        {/* <Routes>
+        {/* <Home /> */}
+        <Routes>
             <Route path='/' element={<Home />}/>
-        </Routes> */}
+        </Routes>
       </Container>
       <Footer />
     </Router>

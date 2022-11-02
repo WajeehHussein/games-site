@@ -18,7 +18,7 @@ const Header = () => {
                     <li className="nav-item"><Link to='/' className='nav-link'>Home</Link></li>
                     <li className="nav-item"><Link to='/browse' className='nav-link'>Browse</Link></li>
                     <li className="nav-item dropdown">
-                        <a href="/" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Details</a>
+                        <a href="/" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Games</a>
                         <ul className="dropdown-menu bg-dark">
                             <li><Link to='/Fortnite' className='dropdown-item text-white'>Fortnite</Link></li>
                             <li><Link to='/Call of Duty' className='dropdown-item text-white'>Call of Duty</Link></li>

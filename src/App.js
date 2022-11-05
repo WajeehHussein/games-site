@@ -9,9 +9,8 @@ function App() {
     <Router>
       <Header />
       <Container>
-        {/* <Home /> */}
         <Routes>
-            <Route path='/' element={<Home />}/>
+            <Route path='/games-site' element={<Home />}/>
         </Routes>
       </Container>
       <Footer />

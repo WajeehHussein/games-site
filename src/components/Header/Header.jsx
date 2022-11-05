@@ -15,7 +15,7 @@ const Header = () => {
             </button>
             <div className="collapse navbar-collapse" id="mainmenu">
                 <ul className="navbar-nav ms-auto">
-                    <li className="nav-item"><Link to='/' className='nav-link'>Home</Link></li>
+                    <li className="nav-item"><Link to='/games-site' className='nav-link'>Home</Link></li>
                     <li className="nav-item"><Link to='/browse' className='nav-link'>Browse</Link></li>
                     <li className="nav-item dropdown">
                         <a href="/" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Games</a>
